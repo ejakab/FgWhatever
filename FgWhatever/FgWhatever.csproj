@@ -66,6 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="css\base.scss" />
+    <Content Include="css\_reset.scss" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,6 +81,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\base.css">
+      <DependentUpon>base.scss</DependentUpon>
+    </Content>
+    <Content Include="css\base.min.css">
+      <DependentUpon>base.css</DependentUpon>
+    </Content>
     <Content Include="index.html" />
     <Content Include="normalize.css" />
     <Content Include="skeleton_enhanced_mf.css" />
