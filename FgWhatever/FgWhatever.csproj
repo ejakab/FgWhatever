@@ -95,6 +95,7 @@
     <Content Include="img\dotoverlay1.png" />
     <Content Include="img\dotoverlay2.png" />
     <Content Include="img\logo.png" />
+    <Content Include="img\menu.png" />
     <Content Include="index.html" />
     <Content Include="css\normalize.css" />
     <Content Include="css\skeleton_enhanced_mf.css" />
