@@ -3,49 +3,368 @@
   <head>
     <meta charset="utf-8">
     <title>FVGIC Schedule</title>
-
+      <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <link href="css/normalize.css" rel="stylesheet" />
       <link href="css/skeleton_enhanced_mf.css" rel="stylesheet" />
+      <link href="css/base.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
+     
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+              crossorigin="anonymous"></script>
+      <script src="js/JavaScript.js"></script>
 
   </head>
   <body class="container">
+        <header class="row">
+              <nav class="col XS-12">
+                  <div id="logo" class="col XS-3">
+                      <img src="img/logo.png" />
+                  </div>
+                  <div id="scheduletitle" class="animated flipInX">                     
+                  </div>
+                  <h1 class="animated slideInDown">Schedule</h1>
+                  <ul class="hide-XS show-L col XS-4 o-XS-5">
+                      <li class="col S-3"><a href="#">Home</a></li>
+                      <li class="col S-3"><a href="#">About</a></li>
+                      <li class="col S-3"><a href="#">Blog</a></li>
+                      <li class="col S-3"><a href="#">Contact</a></li>
+                  </ul>
+              </nav>
+          </header>
 
-      <header>
-          <nav>
-              <ul>
-                  <li>logo</li>
-                  <li>SCHEDULE</li>
-                  <li>About</li>
-                  <li>About</li>
-                  <li>About</li>
-                  <li>Contact</li> 
-              </ul>
-          </nav>
-      </header>
+         
+          <main class="animated slideInUp">
+                  <section class="row hide-M" id="datenav">
+                      <div class="date hide-M col XS-3">
+                          <p>15.11.</p>
+                          <p>Wednesday</p>
+                      </div>
+                      <div class="date hide-M col XS-3">
+                          <p>15.11.</p>
+                          <p>Wednesday</p>
+                      </div>
+                      <div class="date hide-M col XS-3">
+                          <p>15.11.</p>
+                          <p>Wednesday</p>
+                      </div>
+                      <div class="date hide-M col XS-3">
+                          <p>15.11.</p>
+                          <p>Wednesday</p>
+                      </div>
+                  </section>
+                  
+                  <section class="row">
 
-      <main class="row">
-      <section class="col S-10 o-S-1 L-10 o-L-1">
-          <section class="row">
-              <time class="col S-12 L-3">Thu</time>
-              <time class="col S-12 L-3">Fri</time>
-              <time class="col S-12 L-3">Sat</time>
-              <time class="col S-12 L-3">Sun</time>
-          </section>
-          <section class="row">
-              <article class="col S-12 L-3">
-                  <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-              </article>
-              <article class="col S-12 L-3">
-                  Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-              </article>
-              <article class="col S-12 L-3">
-                  Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-              </article>
-              <article class="col S-12 L-3">
-                  Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-              </article>
-          </section>
-      </section>
+                      
+                      <article class="col XS-12 M-6 L-3" id="day1">
+                          <div class="timeline col XS-3">
+                              <div class="time">
+                                  <time>10:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event1">
+
+                              </div>
+                              <div class="time">
+                                  <time>12:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event2">
+
+                              </div>
+                              <div class="time">
+                                  <time>13:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event3">
+
+                              </div>
+                              <div class="time">
+                                  <time>15:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                          </div>
+                          <div class="events col XS-8 M-9">
+                              <div class="date">
+                                  <p>15.11.</p>
+                                  <p>Wednesday</p>
+                              </div>
+                              <div class="poster">
+                                  <div class="main_image">
+                                      <p class="dotm-overlay">
+                                          State<br />
+                                          of the <br />
+                                          Art
+                                      </p>
+                                      <div class="desc dotm-overlay" style="display: block; ">
+
+                                          <a href="#" class="collapse show">🢓</a>
+                                          <div class="block" style=" display: none; ">
+                                              <h2>State of the art</h2>
+
+                                              <p style="font-size:12px;">
+                                                  Keynote speech:
+                                                  · Applying Big Data in the
+                                                  marketing of MMORPG’s (by Harry
+                                                  Cage,
+                                                  Head of Google Advanced
+                                                  Consumer Research)
+                                                  Invited talk(s):
+                                                  · Are We There Yet? - How to
+                                                  achieve cost-efficient perfection
+                                                  in releasing bug-free games (by
+                                                  Darnell Astor Bellerose, Head
+                                                  Developer, Zynga Toronto) <br>
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="break">
+                                  <p>BREAK</p>
+                              </div>
+
+                              <div class="posterpresentation">
+                                  <p class="dotm-overlay">Poster presentation:<br /> <b class="big">Group 1</b></p>
+                              </div>
+                          </div>
+                      </article>
+
+
+                      <article class="col XS-12 o-XS-r M-6 o-M-0 L-3" id="day2">
+                          <div class="timeline col XS-3">
+                              <div class="time">
+                                  <time>09:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event1">
+
+                              </div>
+                              <div class="time">
+                                  <time>12:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event2">
+
+                              </div>
+                              <div class="time">
+                                  <time>13:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event3">
+
+                              </div>
+                              <div class="time">
+                                  <time>15:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                          </div>
+                          <div class="events col XS-8 M-9">
+                              <div class="date">
+                                  <p>16.11.</p>
+                                  <p>Thursday</p>
+                              </div>
+                              <div class="poster">
+                                  <div class="main_image">
+                                      <p class="dotm-overlay">
+                                          Crossing <br />
+                                          borders
+                                      </p>
+                                      <div class="desc dotm-overlay" style="display: block; ">
+
+                                          <a href="#" class="collapse show">🢓</a>
+                                          <div class="block" style=" display: none; ">
+                                              <h2>Crossing borders</h2>
+
+                                              <p style="font-size:12px;">
+                                                  Keynote speech:
+                                                  · Money Laundering and the
+                                                  Financing of Terrorism – a review
+                                                  on the state of global regulations
+                                                  of internet gambling (by Prof. Pah
+                                                  Chin Kobayashi, The Advanced
+                                                  Institute for Law and Politics,
+                                                  Hokkaido University, Japan)
+                                                  Invited talk(s):
+                                                  · Where East Meets West – A
+                                                  case study on successful
+                                                  codevelopment and production
+                                                  (rep. of NCsoft and Blizzard, tba.)
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                              <div class="break">
+                                  <p>BREAK</p>
+                              </div>
+                              <div class="posterpresentation">
+                                  <p class="dotm-overlay">Poster presentation:<br /> <b class="big"> Group 2</b></p>
+                              </div>
+                          </div>
+                      </article>
+
+                      
+
+                      <article class="col XS-12 o-XS-r M-6 L-3 o-L-0" id="day3">
+                          <div class="timeline col XS-3">
+                              <div class="time">
+                                  <time>09:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event1">
+
+                              </div>
+                              <div class="time">
+                                  <time>12:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event2">
+
+                              </div>
+                              <div class="time">
+                                  <time>13:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event3">
+
+                              </div>
+                              <div class="time">
+                                  <time>15:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                          </div>
+                          <div class="events col XS-8  M-9">
+                              <div class="date">
+                                  <p>17.11.</p>
+                                  <p>Friday</p>
+                              </div>
+                              <div class="poster">
+                                  <div class="main_image">
+                                      <p class="dotm-overlay">
+                                          Theory<br />
+                                          crafting
+                                      </p>
+                                      <div class="desc dotm-overlay" style="display: block; ">
+
+                                          <a href="#" class="collapse show">🢓</a>
+                                          <div class="block" style=" display: none; ">
+                                              <h2>Theory crafting</h2>
+
+                                              <p style="font-size:12px;">
+                                                  Keynote speech:
+                                                  · Gaming on the Oscilloscope – the
+                                                  re-evolution (by Herr Doktor O.
+                                                  Graf, Munich University of Applied
+                                                  Sciences)
+                                                  Invited talk(s):
+                                                  · Back to Basics: a field study on
+                                                  gameplay in traditional board
+                                                  games of the Basque country
+                                                  (by Andréas Filippo Maloliente,
+                                                  Junior Professor, Department
+                                                  of Anthropology, Universitat de
+                                                  Barcelona)
+                                                  · Score matters: accounting
+                                                  for the role of underscore
+                                                  in augmented reality games
+                                                  (Hanna Kiss Mészáros, phd,
+                                                  Assistant Professor, Musicology
+                                                  Department, Liszt Ferenc Academy
+                                                  of Music)
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                              <div class="break">
+                                  <p>BREAK</p>
+                              </div>
+                              <div class="posterpresentation">
+                                  <p class="dotm-overlay">Poster presentation:<br /> <b class="big">Group 3</b></p>
+                              </div>
+                          </div>
+                      </article>
+
+                      
+                      <article class="col XS-12 o-XS-r M-6 o-M-0 L-3" id="day4">
+                          <div class="timeline col XS-3">
+                              <div class="time">
+                                <time>09:00</time>
+                                <img src="img/circle.png" />
+                              </div>
+                              <div class="event1">
+
+                              </div>
+                              <div  class="time">
+                                  <time>12:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event2">
+
+                              </div>
+                              <div  class="time">
+                                  <time>13:30</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                              <div class="event3">
+
+                              </div>
+                              <div  class="time">
+                                  <time>15:00</time>
+                                  <img src="img/circle.png" />
+                              </div>
+                          </div>
+                          <div class="events col XS-8  M-9">
+                              <div class="date">
+                                  <p>18.11.</p>
+                                  <p>Saturday</p>
+                              </div>
+                              <div class="poster">
+                                  <div class="main_image">
+                                      <p class="dotm-overlay">
+                                          The<br />
+                                          gamers of<br />
+                                          tomorrow
+                                      </p>
+                                      <div class="desc dotm-overlay" style="display: block; ">
+
+                                          <a href="#" class="collapse show">🢓</a>
+                                          <div class="block" style=" display: none; ">
+                                              <h2>The gamers of tomorrow</h2>
+
+                                              <p style="font-size:12px">
+                                                  Keynote speech:
+                                                  · Don’t play Games with Me! A
+                                                  critical look at gender, games
+                                                  and stereotypes (by LisbeÞá
+                                                  Hánsdottir, Ph.d, School of Scien
+                                                  ce and Engineering, Reykjavik
+                                                  Universitet)
+                                                  Invited talk(s):
+                                                  · ToxiCity - Mental hygiene and
+                                                  mindfulness in gaming societies
+                                                  (by Prof. Koizumi Kenta, College
+                                                  of Arts and Sciences, University
+                                                  of Tokyo)<br>
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                              <div class="break">
+                                  <p>BREAK</p>
+                              </div>
+                              <div class="posterpresentation">
+                                  <p class="dotm-overlay">Poster presentation:<br /> <b class="big">Group 4</b></p>
+                              </div>
+                          </div>
+                      </article>
+
+                  </section>
           </main>
 
       <footer>

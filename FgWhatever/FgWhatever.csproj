@@ -87,9 +87,18 @@
     <Content Include="css\base.min.css">
       <DependentUpon>base.css</DependentUpon>
     </Content>
+    <Content Include="img\circle.png" />
+    <Content Include="img\day1.jpg" />
+    <Content Include="img\day2.jpg" />
+    <Content Include="img\day3.jpg" />
+    <Content Include="img\day4.jpg" />
+    <Content Include="img\dotoverlay1.png" />
+    <Content Include="img\dotoverlay2.png" />
+    <Content Include="img\logo.png" />
     <Content Include="index.html" />
-    <Content Include="normalize.css" />
-    <Content Include="skeleton_enhanced_mf.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\skeleton_enhanced_mf.css" />
+    <Content Include="js\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
